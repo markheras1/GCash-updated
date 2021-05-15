@@ -6,5 +6,3 @@ $otp = $_POST['otp'];
 
 $otp = $_POST['otp'] + 3;
 
-
-*/
